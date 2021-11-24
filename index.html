@@ -8,7 +8,78 @@
     <title>Js DOM Assignment</title>
 </head>
 <body>
-    
+    <div class="container">
+        <section id="change-bg-box">
+            <p>Hello Sir...</p>
+            <p>Javascript Assignment...</p>
+            <div class="btn-box">
+                <span>Background Color Change:</span>
+                <input type="color" onchange="changeBg(this)" id="change-bg">
+                <span>Text Color Change:</span>
+                <input type="color" onchange="changeText(this)" id="change-text">
+            </div>
+        </section>
+
+        <!-- section two -->
+        <section id="change-image-box">
+            <div class="image">
+                <img src="./assets/images/000-Online-Code-Editors.png" id="image-manupulate" alt="Image" width="300" height="auto">
+            </div>
+            <ul>
+                <li><button onclick="showImage()">Show image</button></li>
+                <li><button onclick="bigImage()">Big image</button></li>
+                <li><button onclick="smallImage()">Small image</button></li>
+                <li><button onclick="hideImage()">Hide image</button></li>
+            </ul>
+        </section>
+
+        <!-- section three -->
+        <section id="bulk-box">
+            <img src="./assets/images/pic_bulboff.gif" onmouseover="bulbOn(this)" onmouseout="bulbOff(this)" alt="" 
+                width="150" 
+                height="auto"
+            >
+        </section>
+
+        <!-- section four -->
+        <section id="change-para-color">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+        </section>
+
+        <!-- section five -->
+        <section id="change-para-color-another">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, possimus sit ad voluptate doloremque nesciunt!</p>
+                <input type="color" onchange="changePara(this)">
+            </div>
+        </section>
+
+    </div>
 </body>
     <script src="app.js"></script>
 </html>

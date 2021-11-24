@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#change-bg-box{
+    height: 200px;
+    background: rgb(68,190,222);
+    background: linear-gradient(0deg, rgba(68,190,222,1) 0%, rgba(29,80,106,1) 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 50px;
+}
+
+#change-bg-box button{
+    padding: 10px;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 5px;
+} 
+
+.btn-box span{
+    vertical-align: super;
+}
+
+/* section two */
+
+#change-image-box{
+    background-color: pink;
+    height: auto;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+#change-image-box img{
+    margin-top: 20px;
+}
+
+#change-image-box ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#change-image-box ul li{
+    list-style-type: none;
+    margin: 20px 10px;
+}
+
+#change-image-box ul li button{
+    padding: 10px;
+    border: 1px ridge black;
+    outline: none;
+    background-color: none;
+    border-radius: 5px;
+}
+
+#image-manupulate{
+    display: none;
+}
+
+/* section three */
+
+#bulk-box{
+    background-color: #262626;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#bulk-box img{
+    margin: 20px 0px;
+}
+
+/* section four */
+
+#change-para-color{
+    height: auto;
+    background-color: rgb(197, 211, 219);
+    display: flex;
+}
+
+#change-para-color-another{
+    height: auto;
+    background-color: rgb(113, 122, 128);
+    display: flex;
+}
+
+#change-para-color > div, #change-para-color-another > div{
+    margin: 80px 0px;
+    text-align: center;
+}
